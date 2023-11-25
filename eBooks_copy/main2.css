@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#log{
+    font-size: 25pt;
+    font-weight: bold;
+    line-height: 210%;
+    padding-left: 2.5%;
+    background-color: #2F3C7E;
+    color: #FBEAEB;
+}
+
+#first{
+    position: absolute;
+    float: left;
+    top: 20%;
+    left: 10%;
+    right: 60%;
+
+
+}
+
+#second{
+    position: absolute;
+    float: right;
+    top: 20%;
+    left: 60%;
+    right: 10%;
+
+
+}
