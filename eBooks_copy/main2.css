@@ -1,33 +1,83 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Roboto", serif;
 }
 
 #log{
     font-size: 25pt;
-    font-weight: bold;
-    line-height: 210%;
+    line-height: 200%;
     padding-left: 2.5%;
     background-color: #2F3C7E;
     color: #FBEAEB;
 }
 
+
+nav {
+    background-color: #A8D8EA;
+    line-height: 30pt;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #2F3C7E;
+    line-height: 40px;
+    padding-left: 13px;
+    padding-right: 13px;
+    display: block;
+    white-space: nowrap;
+    font-size: 12pt;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  nav ul li ul{
+    position: absolute;
+    visibility: hidden;
+    background-color: #A8D8EA;
+    color: #FBEAEB;
+  }
+  
+  
+  nav ul li:hover > ul{
+    visibility: visible;
+  }
+  
+  nav ul li ul li{
+    width: 100%;
+  }
+  
+  
+  nav ul li a:hover {
+    background-color: #FFFFD2;
+    color: #2F3C7E;
+  }
+  
+  nav ul li ul li ul{
+    top: 0;
+    left: 100%;
+  }
+
+  
 #first{
     position: absolute;
     float: left;
-    top: 20%;
-    left: 10%;
-    right: 60%;
-
-
-}
-
-#second{
-    position: absolute;
-    float: right;
-    top: 20%;
-    left: 60%;
-    right: 10%;
-
+    top: 25%;
+    left: 2.5%;
+    right: 85%;
+    padding: 1%;
+    background-color: #A8D8EA;
+    color: #2F3C7E;
+    font-size: 10pt;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
 
 }
