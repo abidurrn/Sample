@@ -71,10 +71,10 @@ nav {
 #first{
     position: absolute;
     float: left;
-    top: 25%;
-    left: 5%;
-    right: 67.2%;
-    bottom: 50%;
+    top: 30%;
+    left: 9.2%;
+    width: 13%;
+    height: 27%;
     padding: 1%;
     background-color: #A8D8EA;
     color: #2F3C7E;
@@ -83,81 +83,82 @@ nav {
     border-bottom-left-radius: 30px;
 }
 
-/* 2.5% gap and div size- 15%, total div with space 17.5% and only div 12.5%, 28% total*/
 
 #second{
-  position: absolute;
-  float: left;
-  top: 25%;
-  left: 24.8%;
-  right: 50.4%;
-  bottom: 50%;
-  padding: 1%;
-  background-color: #A8D8EA;
-  color: #2F3C7E;
-  font-size: 10pt;
-  border-bottom-right-radius: 30px;
-  border-bottom-left-radius: 30px;
+    position: absolute;
+    float: left;
+    top: 30%;
+    left: 25.45%;
+    width: 13%;
+    height: 27%;
+    padding: 1%;
+    background-color: #A8D8EA;
+    color: #2F3C7E;
+    font-size: 10pt;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
 }
 
 
 #third{
-  position: absolute;
-  float: left;
-  top: 25%;
-  left: 41.6%;
-  right: 33.06%;
-  bottom: 50%;
-  padding: 1%;
-  background-color: #A8D8EA;
-  color: #2F3C7E;
-  font-size: 10pt;
-  border-bottom-right-radius: 30px;
-  border-bottom-left-radius: 30px;
+    position: absolute;
+    float: left;
+    top: 30%;
+    left: 41.7%;
+    width: 13%;
+    height: 27%;
+    padding: 1%;
+    background-color: #A8D8EA;
+    color: #2F3C7E;
+    font-size: 10pt;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
 }
 
 
 #fourth{
-  position: absolute;
-  float: left;
-  top: 25%;
-  left: 58.4%;
-  right: 16.8%;
-  bottom: 50%;
-  padding: 1%;
-  background-color: #A8D8EA;
-  color: #2F3C7E;
-  font-size: 10pt;
-  border-bottom-right-radius: 30px;
-  border-bottom-left-radius: 30px;
+    position: absolute;
+    float: left;
+    top: 30%;
+    left: 57.95%;
+    width: 13%;
+    height: 27%;
+    padding: 1%;
+    background-color: #A8D8EA;
+    color: #2F3C7E;
+    font-size: 10pt;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
 }
 
 
 
 #fifth{
-  position: absolute;
-  float: left;
-  top: 25%;
-  left: 75.2%;
-  right: 8%;
-  bottom: 50%;
-  padding: 1%;
-  background-color: #A8D8EA;
-  color: #2F3C7E;
-  font-size: 10pt;
-  border-bottom-right-radius: 30px;
-  border-bottom-left-radius: 30px;
+    position: absolute;
+    float: left;
+    top: 30%;
+    left: 74.2%;
+    width: 13%;
+    height: 27%;
+    padding: 1%;
+    background-color: #A8D8EA;
+    color: #2F3C7E;
+    font-size: 10pt;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
 }
 
 
-/*
+
+
+
 #sixth{
   position: absolute;
   float: left;
-  top: 53%;
-  left: 17.5%;
-  right: 70%;
-  bottom: 50%;
+  top: 66.5%;
+  left: 9.2%;
+  width: 13%;
+  height: 27%;
   padding: 1%;
   background-color: #A8D8EA;
   color: #2F3C7E;
@@ -166,15 +167,15 @@ nav {
   border-bottom-left-radius: 30px;
 }
 
-
+/* */
 
 #seventh{
   position: absolute;
   float: left;
-  top: 53%;
-  left: 17.5%;
-  right: 70%;
-  bottom: 50%;
+  top: 66.5%;
+  left: 25.45%;
+  width: 13%;
+  height: 27%;
   padding: 1%;
   background-color: #A8D8EA;
   color: #2F3C7E;
@@ -182,16 +183,15 @@ nav {
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
 }
-
 
 
 #eighth{
   position: absolute;
   float: left;
-  top: 53%;
-  left: 17.5%;
-  right: 70%;
-  bottom: 50%;
+  top: 66.5%;
+  left: 41.7%;
+  width: 13%;
+  height: 27%;
   padding: 1%;
   background-color: #A8D8EA;
   color: #2F3C7E;
@@ -201,14 +201,13 @@ nav {
 }
 
 
-
 #ninth{
   position: absolute;
   float: left;
-  top: 53%;
-  left: 17.5%;
-  right: 70%;
-  bottom: 50%;
+  top: 66.5%;
+  left: 57.95%;
+  width: 13%;
+  height: 27%;
   padding: 1%;
   background-color: #A8D8EA;
   color: #2F3C7E;
@@ -222,10 +221,10 @@ nav {
 #tenth{
   position: absolute;
   float: left;
-  top: 53%;
-  left: 17.5%;
-  right: 70%;
-  bottom: 50%;
+  top: 66.5%;
+  left: 74.2%;
+  width: 13%;
+  height: 27%;
   padding: 1%;
   background-color: #A8D8EA;
   color: #2F3C7E;
@@ -233,16 +232,20 @@ nav {
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
 }
+
+
+
+
 
 
 
 #eleventh{
   position: absolute;
   float: left;
-  top: 81%;
-  left: 17.5%;
-  right: 70%;
-  bottom: 50%;
+  top: 103%;
+  left: 9.2%;
+  width: 13%;
+  height: 27%;
   padding: 1%;
   background-color: #A8D8EA;
   color: #2F3C7E;
@@ -251,15 +254,15 @@ nav {
   border-bottom-left-radius: 30px;
 }
 
-
+/* */
 
 #twelveth{
   position: absolute;
   float: left;
-  top: 81%;
-  left: 17.5%;
-  right: 70%;
-  bottom: 50%;
+  top: 103%;
+  left: 25.45%;
+  width: 13%;
+  height: 27%;
   padding: 1%;
   background-color: #A8D8EA;
   color: #2F3C7E;
@@ -269,14 +272,13 @@ nav {
 }
 
 
-
-#thirtenth{
+#thirteenth{
   position: absolute;
   float: left;
-  top: 81%;
-  left: 17.5%;
-  right: 70%;
-  bottom: 50%;
+  top: 103%;
+  left: 41.7%;
+  width: 13%;
+  height: 27%;
   padding: 1%;
   background-color: #A8D8EA;
   color: #2F3C7E;
@@ -284,17 +286,15 @@ nav {
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
 }
-
-
 
 
 #fourteenth{
   position: absolute;
   float: left;
-  top: 81%;
-  left: 17.5%;
-  right: 70%;
-  bottom: 50%;
+  top: 103%;
+  left: 57.95%;
+  width: 13%;
+  height: 27%;
   padding: 1%;
   background-color: #A8D8EA;
   color: #2F3C7E;
@@ -302,17 +302,16 @@ nav {
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
 }
-
 
 
 
 #fifteenth{
   position: absolute;
   float: left;
-  top: 81%;
-  left: 17.5%;
-  right: 70%;
-  bottom: 50%;
+  top: 103%;
+  left: 74.2%;
+  width: 13%;
+  height: 27%;
   padding: 1%;
   background-color: #A8D8EA;
   color: #2F3C7E;
@@ -322,4 +321,5 @@ nav {
 }
 
 
-*/
+
+
