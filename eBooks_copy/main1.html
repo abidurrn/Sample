@@ -52,8 +52,8 @@
 
         <script>
             function fir1() {
-                A = 'A book is a gift you can open again and again';
-                B = A.length;
+                let A = 'A book is a gift you can open again and again';
+                let B = A.length;
                 document.getElementById('para1').innerHTML = B;
             }
         </script>
@@ -62,20 +62,20 @@
 
 
     <div id="second">
-        <p style="text-align: center;"><b>Method of length()</b></p>
+        <p style="text-align: center;"><b>Method of split()</b></p>
         &nbsp;
         <hr color="#2F3C7E" size="0.5pt">
         <br>
         <p style="justify-content: center;"><b>Before</b></p><br>
-        <p>A book is a gift you can open again and again</p><br>
-        <button id="butt1" type="button" onclick="fir1()" style="padding: 1%;">After</button><br><br>
-        <p id="para1"></p><br>
+        <p>A,book,is,a,gift,you,can,open,again,and,<br>again</p><br>
+        <button type="button" onclick="fir2()" style="padding: 1%;">After</button><br><br>
+        <p id="para3"></p><br>
 
         <script>
-            function fir1() {
-                A = 'A book is a gift you can open again and again';
-                B = A.length;
-                document.getElementById('para1').innerHTML = B;
+            function fir2() {
+                let C = 'A book is a gift you can open again and again';
+                let D = C.split(',');
+                document.getElementById('para3').innerHTML = D;
             }
         </script>
     </div>
@@ -83,20 +83,20 @@
 
 
     <div id="third">
-        <p style="text-align: center;"><b>Method of length()</b></p>
+        <p style="text-align: center;"><b>Method of pop()</b></p>
         &nbsp;
         <hr color="#2F3C7E" size="0.5pt">
         <br>
         <p style="justify-content: center;"><b>Before</b></p><br>
         <p>A book is a gift you can open again and again</p><br>
-        <button id="butt1" type="button" onclick="fir1()" style="padding: 1%;">After</button><br><br>
-        <p id="para1"></p><br>
+        <button type="button" onclick="fir3()" style="padding: 1%;">After</button><br><br>
+        <p id="para4"></p><br>
 
         <script>
-            function fir1() {
-                A = 'A book is a gift you can open again and again';
-                B = A.length;
-                document.getElementById('para1').innerHTML = B;
+            function fir3() {
+                const E = ["A", "book", "is", "a", "gift", "you", "can", "open", "again", "and", "again"];
+                E.pop();
+                document.getElementById('para4').innerHTML = E;
             }
         </script>
     </div>
@@ -106,20 +106,20 @@
 
 
     <div id="fourth">
-        <p style="text-align: center;"><b>Method of length()</b></p>
+        <p style="text-align: center;"><b>Method of push()</b></p>
         &nbsp;
         <hr color="#2F3C7E" size="0.5pt">
         <br>
         <p style="justify-content: center;"><b>Before</b></p><br>
-        <p>A book is a gift you can open again and again</p><br>
-        <button id="butt1" type="button" onclick="fir1()" style="padding: 1%;">After</button><br><br>
-        <p id="para1"></p><br>
+        <p>A book is a gift you can open</p><br>
+        <button type="button" onclick="fir4()" style="padding: 1%;">After</button><br><br>
+        <p id="para5"></p><br>
 
         <script>
-            function fir1() {
-                A = 'A book is a gift you can open again and again';
-                B = A.length;
-                document.getElementById('para1').innerHTML = B;
+            function fir4() {
+                const G = ["A", "book", "is", "a", "gift", "you", "can", "open"];
+                G.push("again", "and" + "," + "<br>" + "again");
+                document.getElementById('para5').innerHTML = G + "<br>";
             }
         </script>
     </div>
@@ -128,20 +128,20 @@
 
 
     <div id="fifth">
-        <p style="text-align: center;"><b>Method of length()</b></p>
+        <p style="text-align: center;"><b>Method of join()</b></p>
         &nbsp;
         <hr color="#2F3C7E" size="0.5pt">
         <br>
         <p style="justify-content: center;"><b>Before</b></p><br>
         <p>A book is a gift you can open again and again</p><br>
-        <button id="butt1" type="button" onclick="fir1()" style="padding: 1%;">After</button><br><br>
-        <p id="para1"></p><br>
+        <button type="button" onclick="fir5()" style="padding: 1%;">After</button><br><br>
+        <p id="para6"></p><br>
 
         <script>
-            function fir1() {
-                A = 'A book is a gift you can open again and again';
-                B = A.length;
-                document.getElementById('para1').innerHTML = B;
+            function fir5() {
+                const H = ["A", "book", "is", "a", "gift", "you", "can", "open", "again", "and", "again"];
+                let I = H.join(" - ");
+                document.getElementById('para6').innerHTML = I;
             }
         </script>
     </div>
@@ -152,20 +152,20 @@
 
 
     <div id="sixth">
-        <p style="text-align: center;"><b>Method of length()</b></p>
+        <p style="text-align: center;"><b>Method of slice()</b></p>
         &nbsp;
         <hr color="#2F3C7E" size="0.5pt">
         <br>
         <p style="justify-content: center;"><b>Before</b></p><br>
         <p>A book is a gift you can open again and again</p><br>
-        <button id="butt1" type="button" onclick="fir1()" style="padding: 1%;">After</button><br><br>
-        <p id="para1"></p><br>
+        <button type="button" onclick="fir6()" style="padding: 1%;">After</button><br><br>
+        <p id="para7"></p><br>
 
         <script>
-            function fir1() {
-                A = 'A book is a gift you can open again and again';
-                B = A.length;
-                document.getElementById('para1').innerHTML = B;
+            function fir6() {
+                J = ["A", "book", "is", "a", "gift", "you", "can", "open", "again", "and", "again"];
+                K = J.slice(0,5);
+                document.getElementById('para7').innerHTML = K;
             }
         </script>
     </div>
@@ -175,20 +175,20 @@
 
 
     <div id="seventh">
-        <p style="text-align: center;"><b>Method of length()</b></p>
+        <p style="text-align: center;"><b>Method of sort()</b></p>
         &nbsp;
         <hr color="#2F3C7E" size="0.5pt">
         <br>
         <p style="justify-content: center;"><b>Before</b></p><br>
-        <p>A book is a gift you can open again and again</p><br>
-        <button id="butt1" type="button" onclick="fir1()" style="padding: 1%;">After</button><br><br>
-        <p id="para1"></p><br>
+        <p>A book is a gift</p><br>
+        <button type="button" onclick="fir7()" style="padding: 1%;">After</button><br><br>
+        <p id="para8"></p><br>
 
         <script>
-            function fir1() {
-                A = 'A book is a gift you can open again and again';
-                B = A.length;
-                document.getElementById('para1').innerHTML = B;
+            function fir7() {
+                L = ["A", "book", "is", "a", "gift"];
+                M = L.sort();
+                document.getElementById('para8').innerHTML = M;
             }
         </script>
     </div>
@@ -198,20 +198,20 @@
 
 
     <div id="eighth">
-        <p style="text-align: center;"><b>Method of length()</b></p>
+        <p style="text-align: center;"><b>Method of replace()</b></p>
         &nbsp;
         <hr color="#2F3C7E" size="0.5pt">
         <br>
         <p style="justify-content: center;"><b>Before</b></p><br>
-        <p>A book is a gift you can open again and again</p><br>
-        <button id="butt1" type="button" onclick="fir1()" style="padding: 1%;">After</button><br><br>
-        <p id="para1"></p><br>
+        <p>A book is a gift</p><br>
+        <button type="button" onclick="fir8()" style="padding: 1%;">After</button><br><br>
+        <p id="para9"></p><br>
 
         <script>
-            function fir1() {
-                A = 'A book is a gift you can open again and again';
-                B = A.length;
-                document.getElementById('para1').innerHTML = B;
+            function fir8() {
+                let N = "A book is a gift";
+                let O = N.replace("book", "life");
+                document.getElementById('para9').innerHTML = O;
             }
         </script>
     </div>
@@ -221,20 +221,20 @@
 
 
     <div id="ninth">
-        <p style="text-align: center;"><b>Method of length()</b></p>
+        <p style="text-align: center;"><b>Method of uppercase()</b></p>
         &nbsp;
         <hr color="#2F3C7E" size="0.5pt">
         <br>
         <p style="justify-content: center;"><b>Before</b></p><br>
         <p>A book is a gift you can open again and again</p><br>
-        <button id="butt1" type="button" onclick="fir1()" style="padding: 1%;">After</button><br><br>
-        <p id="para1"></p><br>
+        <button type="button" onclick="fir9()" style="padding: 1%;">After</button><br><br>
+        <p id="para10"></p><br>
 
         <script>
-            function fir1() {
-                A = 'A book is a gift you can open again and again';
-                B = A.length;
-                document.getElementById('para1').innerHTML = B;
+            function fir9() {
+                let P = 'A book is a gift you can open again and again';
+                let Q = P.toUpperCase();
+                document.getElementById('para10').innerHTML = Q;
             }
         </script>
     </div>
@@ -244,20 +244,20 @@
 
 
     <div id="tenth">
-        <p style="text-align: center;"><b>Method of length()</b></p>
+        <p style="text-align: center;"><b>Method of concat()</b></p>
         &nbsp;
         <hr color="#2F3C7E" size="0.5pt">
         <br>
         <p style="justify-content: center;"><b>Before</b></p><br>
-        <p>A book is a gift you can open again and again</p><br>
-        <button id="butt1" type="button" onclick="fir1()" style="padding: 1%;">After</button><br><br>
-        <p id="para1"></p><br>
+        <p>A book is a gift</p><br>
+        <button type="button" onclick="fir10()" style="padding: 1%;">After</button><br><br>
+        <p id="para11"></p><br>
 
         <script>
-            function fir1() {
-                A = 'A book is a gift you can open again and again';
-                B = A.length;
-                document.getElementById('para1').innerHTML = B;
+            function fir10() {
+                let R = 'A book is a gift';
+                let S = R.concat(" ", "you can open again and again");
+                document.getElementById('para11').innerHTML = S;
             }
         </script>
     </div>
@@ -267,20 +267,20 @@
 
 
     <div id="eleventh">
-        <p style="text-align: center;"><b>Method of length()</b></p>
+        <p style="text-align: center;"><b>Method of padstart()</b></p>
         &nbsp;
         <hr color="#2F3C7E" size="0.5pt">
         <br>
         <p style="justify-content: center;"><b>Before</b></p><br>
         <p>A book is a gift you can open again and again</p><br>
-        <button id="butt1" type="button" onclick="fir1()" style="padding: 1%;">After</button><br><br>
-        <p id="para1"></p><br>
+        <button type="button" onclick="fir11()" style="padding: 1%;">After</button><br><br>
+        <p id="para12"></p><br>
 
         <script>
-            function fir1() {
-                A = 'A book is a gift you can open again and again';
-                B = A.length;
-                document.getElementById('para1').innerHTML = B;
+            function fir11() {
+                let T = 'A book is a gift you can open again and again';
+                let U = T.padStart(49, ">");
+                document.getElementById('para12').innerHTML = U;
             }
         </script>
     </div>
@@ -291,20 +291,20 @@
 
 
     <div id="twelveth">
-        <p style="text-align: center;"><b>Method of length()</b></p>
+        <p style="text-align: center;"><b>Method of trim()</b></p>
         &nbsp;
         <hr color="#2F3C7E" size="0.5pt">
         <br>
         <p style="justify-content: center;"><b>Before</b></p><br>
-        <p>A book is a gift you can open again and again</p><br>
-        <button id="butt1" type="button" onclick="fir1()" style="padding: 1%;">After</button><br><br>
-        <p id="para1"></p><br>
+        <pre>         A book is a gift you can open again<br> and again</pre><br>
+        <button type="button" onclick="fir12()" style="padding: 1%;">After</button><br><br>
+        <p id="para13"></p><br>
 
         <script>
-            function fir1() {
-                A = 'A book is a gift you can open again and again';
-                B = A.length;
-                document.getElementById('para1').innerHTML = B;
+            function fir12() {
+                let V = '    A book is a gift you can open again and again    ';
+                let W = V.trim();
+                document.getElementById('para13').innerHTML = W;
             }
         </script>
     </div>
@@ -314,20 +314,20 @@
 
 
     <div id="thirteenth">
-        <p style="text-align: center;"><b>Method of length()</b></p>
+        <p style="text-align: center;"><b>Method of match()</b></p>
         &nbsp;
         <hr color="#2F3C7E" size="0.5pt">
         <br>
         <p style="justify-content: center;"><b>Before</b></p><br>
         <p>A book is a gift you can open again and again</p><br>
-        <button id="butt1" type="button" onclick="fir1()" style="padding: 1%;">After</button><br><br>
-        <p id="para1"></p><br>
+        <button type="button" onclick="fir13()" style="padding: 1%;">After</button><br><br>
+        <p id="para14"></p><br>
 
         <script>
-            function fir1() {
-                A = 'A book is a gift you can open again and again';
-                B = A.length;
-                document.getElementById('para1').innerHTML = B;
+            function fir13() {
+                let X = 'A book is a gift you can open again and again';
+                let Y = X.match(/again/ig);
+                document.getElementById('para14').innerHTML = Y;
             }
         </script>
     </div>
@@ -338,20 +338,20 @@
 
 
     <div id="fourteenth">
-        <p style="text-align: center;"><b>Method of length()</b></p>
+        <p style="text-align: center;"><b>Method of splice()</b></p>
         &nbsp;
         <hr color="#2F3C7E" size="0.5pt">
         <br>
         <p style="justify-content: center;"><b>Before</b></p><br>
         <p>A book is a gift you can open again and again</p><br>
-        <button id="butt1" type="button" onclick="fir1()" style="padding: 1%;">After</button><br><br>
-        <p id="para1"></p><br>
+        <button type="button" onclick="fir14()" style="padding: 1%;">After</button><br><br>
+        <p id="para15"></p><br>
 
         <script>
-            function fir1() {
-                A = 'A book is a gift you can open again and again';
-                B = A.length;
-                document.getElementById('para1').innerHTML = B;
+            function fir14() {
+                const Z = ["A", "book", "is", "a", "gift", "you", "can", "open", "again", "and", "again"];
+                Z.splice(5, 7, "for,Everyday,Life");
+                document.getElementById('para15').innerHTML = Z;
             }
         </script>
     </div>
@@ -362,28 +362,30 @@
 
 
     <div id="fifteenth">
-        <p style="text-align: center;"><b>Method of length()</b></p>
+        <p style="text-align: center;"><b>Method of date()</b></p>
         &nbsp;
         <hr color="#2F3C7E" size="0.5pt">
         <br>
         <p style="justify-content: center;"><b>Before</b></p><br>
         <p>A book is a gift you can open again and again</p><br>
-        <button id="butt1" type="button" onclick="fir1()" style="padding: 1%;">After</button><br><br>
-        <p id="para1"></p><br>
+        <button id="butt1" type="button" onclick="fir15()" style="padding: 1%;">After</button><br><br>
+        <p id="para16"></p><br>
 
         <script>
-            function fir1() {
-                A = 'A book is a gift you can open again and again';
-                B = A.length;
-                document.getElementById('para1').innerHTML = B;
+            function fir15() {
+                const AA = new Date();
+                const BB = AA.setDate(23/04/1997);
+                document.getElementById('para16').innerHTML = BB;
             }
         </script>
     </div>
     <div style="clear: both;"></div>
 
     <footer id="foot">
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <p style="background-color: #2F3C7E; line-height: 30px; text-align: center; font-size: 10pt;">
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <p style="background-color: #2F3C7E; line-height: 30px; text-align: center; font-size: 10pt; display: block; display: flex; justify-content: center;">
             <a style="text-decoration: none; opacity: 0.8; color: #FBEAEB" href="https://github.com/abidurrn/Sample"
                 target="_blank">Checkout on
                 github
