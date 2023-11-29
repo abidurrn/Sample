@@ -83,6 +83,13 @@ nav {
     border-bottom-left-radius: 30px;
 }
 
+#first:hover{
+  background-color:  #FFFFD2;
+  color: #2F3C7E;
+  zoom: 120%;
+  border-radius: 30px;
+}
+
 
 #second{
     position: absolute;
@@ -97,6 +104,13 @@ nav {
     font-size: 10pt;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
+}
+
+#second:hover{
+  background-color:  #FFFFD2;
+  color: #2F3C7E;
+  zoom: 120%;
+  border-radius: 30px;
 }
 
 
@@ -115,6 +129,13 @@ nav {
     border-bottom-left-radius: 30px;
 }
 
+#third:hover{
+  background-color:  #FFFFD2;
+  color: #2F3C7E;
+  zoom: 120%;
+  border-radius: 30px;
+}
+
 
 #fourth{
     position: absolute;
@@ -129,6 +150,13 @@ nav {
     font-size: 10pt;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
+}
+
+#fourth:hover{
+  background-color:  #FFFFD2;
+  color: #2F3C7E;
+  zoom: 120%;
+  border-radius: 30px;
 }
 
 
@@ -146,6 +174,13 @@ nav {
     font-size: 10pt;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
+}
+
+#fifth:hover{
+  background-color:  #FFFFD2;
+  color: #2F3C7E;
+  zoom: 120%;
+  border-radius: 30px;
 }
 
 
@@ -167,6 +202,13 @@ nav {
   border-bottom-left-radius: 30px;
 }
 
+#sixth:hover{
+  background-color:  #FFFFD2;
+  color: #2F3C7E;
+  zoom: 120%;
+  border-radius: 30px;
+}
+
 /* */
 
 #seventh{
@@ -182,6 +224,13 @@ nav {
   font-size: 10pt;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
+}
+
+#seventh:hover{
+  background-color:  #FFFFD2;
+  color: #2F3C7E;
+  zoom: 120%;
+  border-radius: 30px;
 }
 
 
@@ -200,6 +249,13 @@ nav {
   border-bottom-left-radius: 30px;
 }
 
+#eighth:hover{
+  background-color:  #FFFFD2;
+  color: #2F3C7E;
+  zoom: 120%;
+  border-radius: 30px;
+}
+
 
 #ninth{
   position: absolute;
@@ -214,6 +270,13 @@ nav {
   font-size: 10pt;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
+}
+
+#ninth:hover{
+  background-color:  #FFFFD2;
+  color: #2F3C7E;
+  zoom: 120%;
+  border-radius: 30px;
 }
 
 
@@ -231,6 +294,13 @@ nav {
   font-size: 10pt;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
+}
+
+#tenth:hover{
+  background-color:  #FFFFD2;
+  color: #2F3C7E;
+  zoom: 120%;
+  border-radius: 30px;
 }
 
 
@@ -254,6 +324,13 @@ nav {
   border-bottom-left-radius: 30px;
 }
 
+#eleventh:hover{
+  background-color:  #FFFFD2;
+  color: #2F3C7E;
+  zoom: 120%;
+  border-radius: 30px;
+}
+
 /* */
 
 #twelveth{
@@ -269,6 +346,13 @@ nav {
   font-size: 10pt;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
+}
+
+#twelveth:hover{
+  background-color:  #FFFFD2;
+  color: #2F3C7E;
+  zoom: 120%;
+  border-radius: 30px;
 }
 
 
@@ -287,6 +371,13 @@ nav {
   border-bottom-left-radius: 30px;
 }
 
+#thirteenth:hover{
+  background-color:  #FFFFD2;
+  color: #2F3C7E;
+  zoom: 120%;
+  border-radius: 30px;
+}
+
 
 #fourteenth{
   position: absolute;
@@ -301,6 +392,13 @@ nav {
   font-size: 10pt;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
+}
+
+#fourteenth:hover{
+  background-color:  #FFFFD2;
+  color: #2F3C7E;
+  zoom: 120%;
+  border-radius: 30px;
 }
 
 
@@ -318,6 +416,13 @@ nav {
   font-size: 10pt;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
+}
+
+#fifteenth:hover{
+  background-color:  #FFFFD2;
+  color: #2F3C7E;
+  zoom: 120%;
+  border-radius: 30px;
 }
 
 

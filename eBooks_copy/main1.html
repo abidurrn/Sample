@@ -10,7 +10,7 @@
     <link type="text/css" rel="stylesheet" href="main2.css">
 </head>
 
-<body>
+<body style="background-image: url(dim-hou-bY7aJIOae-g-unsplash.jpg); background-size: cover;">
 
     <p id="log">eBooks.com</p>
 
@@ -67,7 +67,7 @@
         <hr color="#2F3C7E" size="0.5pt">
         <br>
         <p style="justify-content: center;"><b>Before</b></p><br>
-        <p>A,book,is,a,gift,you,can,open,again,and,<br>again</p><br>
+        <p>A,book,is,a,gift,you,can,open,<br>again,and,again</p><br>
         <button type="button" onclick="fir2()" style="padding: 1%;">After</button><br><br>
         <p id="para3"></p><br>
 
@@ -96,6 +96,8 @@
             function fir3() {
                 const E = ["A", "book", "is", "a", "gift", "you", "can", "open", "again", "and", "again"];
                 E.pop();
+                E.pop();
+                E.pop();
                 document.getElementById('para4').innerHTML = E;
             }
         </script>
@@ -111,14 +113,14 @@
         <hr color="#2F3C7E" size="0.5pt">
         <br>
         <p style="justify-content: center;"><b>Before</b></p><br>
-        <p>A book is a gift you can open</p><br>
+        <p>A book is a gift</p><br>
         <button type="button" onclick="fir4()" style="padding: 1%;">After</button><br><br>
         <p id="para5"></p><br>
 
         <script>
             function fir4() {
                 const G = ["A", "book", "is", "a", "gift", "you", "can", "open"];
-                G.push("again", "and" + "," + "<br>" + "again");
+                G.push("<br>","again", "and" + "," + "again");
                 document.getElementById('para5').innerHTML = G + "<br>";
             }
         </script>
@@ -296,7 +298,7 @@
         <hr color="#2F3C7E" size="0.5pt">
         <br>
         <p style="justify-content: center;"><b>Before</b></p><br>
-        <pre>         A book is a gift you can open again<br> and again</pre><br>
+        <pre>         A book is a gift you can open<br> again and again</pre><br>
         <button type="button" onclick="fir12()" style="padding: 1%;">After</button><br><br>
         <p id="para13"></p><br>
 
@@ -367,15 +369,21 @@
         <hr color="#2F3C7E" size="0.5pt">
         <br>
         <p style="justify-content: center;"><b>Before</b></p><br>
-        <p>A book is a gift you can open again and again</p><br>
-        <button id="butt1" type="button" onclick="fir15()" style="padding: 1%;">After</button><br><br>
+        <p>04/23/1997</p><br>
+        <button type="button" onclick="fir15()" style="padding: 1%;">After</button><br><br>
         <p id="para16"></p><br>
 
         <script>
             function fir15() {
-                const AA = new Date();
-                const BB = AA.setDate(23/04/1997);
-                document.getElementById('para16').innerHTML = BB;
+                const AAA = new Date("04/23/1997");
+                const BBB = AAA.getDate();
+                const CCC = AAA.getMonth() + 1;
+                const DDD = AAA.getFullYear();
+            
+
+                // const EEE = CCC.replace("4", "April") 
+                
+                document.getElementById('para16').innerHTML = BBB + ">" + CCC +  ">" + DDD;
             }
         </script>
     </div>
