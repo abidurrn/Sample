@@ -21,7 +21,7 @@ if (isset($_POST["submit"])) {
         $emailErr = "Email is required";
     }else{
         $email = $_POST["email"];
-        }
+    }
 
 
 
@@ -29,7 +29,7 @@ if (isset($_POST["submit"])) {
         $dateofbirthErr = "Date of Birth is required";
     }else{
         $dateofbirth = $_POST["dateofbirth"];
-        }
+    }
 
 
 
@@ -37,7 +37,7 @@ if (isset($_POST["submit"])) {
         $phonenumberErr = "Phone Number is required";
     }else{
         $phonenumber = $_POST["phonenumber"];
-        }
+    }
 
 
 
@@ -45,7 +45,7 @@ if (isset($_POST["submit"])) {
         $collegenameErr = "College Name is required";
     }else{
         $collegename = $_POST["collegename"];
-        }
+    }
 
 
 
@@ -53,7 +53,7 @@ if (isset($_POST["submit"])) {
         $genderErr = "Gender is required";
     }else{
         $gender = $_POST["gender"];
-        }
+    }
 
 
 
@@ -61,7 +61,7 @@ if (isset($_POST["submit"])) {
         $grade = "";
     }else{
         $grade = $_POST["grade"];
-        }
+    }
 
 
 
@@ -69,7 +69,7 @@ if (isset($_POST["submit"])) {
         $booktitleErr = "Book Title is required";
     }else{
         $booktitle = $_POST["booktitle"];
-        }
+    }
 
 
 
@@ -77,7 +77,7 @@ if (isset($_POST["submit"])) {
         $isbnErr = "ISBN is required";
     }else{
         $isbn = $_POST["isbn"];
-        }
+    }
 
 
 
@@ -85,7 +85,7 @@ if (isset($_POST["submit"])) {
         $quantityErr = "Quantity is required";
     }else{
         $quantity = $_POST["quantity"];
-        }
+    }
 
 
 
@@ -93,7 +93,7 @@ if (isset($_POST["submit"])) {
         $wantErr = "Want is required";
     }else{
         $want = $_POST["want"];
-        }
+    }
 
 
 
@@ -101,7 +101,7 @@ if (isset($_POST["submit"])) {
         $interest = "";
     }else{
         $interest = $_POST["interest"];
-        }
+    }
 
 
 
@@ -109,7 +109,7 @@ if (isset($_POST["submit"])) {
         $shippingaddressErr= "Shipping Address is required";
     }else{
         $shippingaddress = $_POST["shippingaddress"];
-        }
+    }
 
 
 
@@ -117,7 +117,7 @@ if (isset($_POST["submit"])) {
         $cityErr = "City is required";
     }else{
         $city = $_POST["city"];
-        }
+    }
 
 
 
@@ -125,7 +125,7 @@ if (isset($_POST["submit"])) {
         $stateErr = "State is required";
     }else{
         $state = $_POST["state"];
-        }
+    }
 
 
 
@@ -133,7 +133,7 @@ if (isset($_POST["submit"])) {
         $postalErr = "Postal code is required";
     }else{
         $postal = $_POST["postal"];
-        }
+    }
 
 
 
@@ -141,7 +141,7 @@ if (isset($_POST["submit"])) {
         $countryErr = "Country is required";
     }else{
         $country = $_POST["country"];
-        }
+    }
 
 
 
@@ -149,7 +149,7 @@ if (isset($_POST["submit"])) {
         $message = "";
     }else{
         $message = $_POST["message"];
-        }
+    }
             
 }
 
@@ -221,30 +221,12 @@ if (isset($_POST["submit"])) {
                     <div class="row">
                             <div class="col-sm-6" style="display: flex; align-items: center; justify-content: center;">
                                 <div>
-                                    1. Full Name:<br><input type="text" name="fullname" placeholder="Enter your Name, e.g. Zakir Naik" style="width: 300px;">&nbsp;<span class="redd">*</span><br><br>
+                                    1. Full Name:<br><input type="text" name="fullname" placeholder="Enter your Name, e.g. Zakir Naik" style="width: 300px;">&nbsp;<span class="redd">* <?php echo $fullnameErr;?></span><br><br>
                                 </div>
                             </div>
                             <div class="col-sm-6" style="display: flex; align-items: center; justify-content: center;">
                                 <div>
-                                    2. Email:<br><input type="email" name="email" placeholder="example@example.com" style="width: 300px;">&nbsp;<span class="redd">*</span><br><br>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-                <br>
-
-
-
-                <div class="container">
-                    <div class="row">
-                            <div class="col-sm-6" style="display: flex; align-items: center; justify-content: center;">
-                                <div>
-                                    3. Date of Birth:<br><input type="date"" name="dateofbirth" style="width: 300px;">&nbsp;<span class="redd">*</span><br><br>
-                                </div>
-                            </div>
-                            <div class="col-sm-6" style="display: flex; align-items: center; justify-content: center;">
-                                <div>
-                                    4. Phone Number:<br><input type="text"" name="phonenumber" placeholder="+880xxxxxxxxx" style="width: 300px;">&nbsp;<span class="redd">*</span><br><br>
+                                    2. Email:<br><input type="email" name="email" placeholder="example@example.com" style="width: 300px;">&nbsp;<span class="redd">* <?php echo $fullnameErr;?></span><br><br>
                                 </div>
                             </div>
                     </div>
@@ -257,14 +239,32 @@ if (isset($_POST["submit"])) {
                     <div class="row">
                             <div class="col-sm-6" style="display: flex; align-items: center; justify-content: center;">
                                 <div>
-                                    5. College Name:<br><input type="text" name="collegename" placeholder="e.g. Notre Dame College" style="width: 300px;">&nbsp;<span class="redd">*</span><br><br>
+                                    3. Date of Birth:<br><input type="date"" name="dateofbirth" style="width: 300px;">&nbsp;<span class="redd">* <?php echo $fullnameErr;?></span><br><br>
+                                </div>
+                            </div>
+                            <div class="col-sm-6" style="display: flex; align-items: center; justify-content: center;">
+                                <div>
+                                    4. Phone Number:<br><input type="text"" name="phonenumber" placeholder="+880xxxxxxxxx" style="width: 300px;">&nbsp;<span class="redd">* <?php echo $fullnameErr;?></span><br><br>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <br>
+
+
+
+                <div class="container">
+                    <div class="row">
+                            <div class="col-sm-6" style="display: flex; align-items: center; justify-content: center;">
+                                <div>
+                                    5. College Name:<br><input type="text" name="collegename" placeholder="e.g. Notre Dame College" style="width: 300px;">&nbsp;<span class="redd">* <?php echo $fullnameErr;?></span><br><br>
                                 </div>
                             </div>
                             <div class="col-sm-6" style="display: flex; align-items: center; justify-content: center;">
                                 <div style="margin-left: -103px;">
                                     6. Gender:<br><input type="radio"" name="gender">&nbsp;Male&nbsp;&nbsp;&nbsp;
                                     <input type="radio"" name="gender">&nbsp;Female&nbsp;&nbsp;
-                                    <input type="radio"" name="gender">&nbsp;Others&nbsp;<span class="redd">*</span><br><br>
+                                    <input type="radio"" name="gender">&nbsp;Others&nbsp;<span class="redd">* <?php echo $fullnameErr;?></span><br><br>
                                 </div>
                             </div>
                     </div>
@@ -282,7 +282,7 @@ if (isset($_POST["submit"])) {
                             </div>
                             <div class="col-sm-6" style="display: flex; align-items: center; justify-content: center;">
                                 <div>
-                                    8. Book Title:<br><input type="text" name="booktitle" placeholder="e.g. Harry Potter by J. K. Rowling" style="width: 300px;">&nbsp;<span class="redd">*</span><br><br>
+                                    8. Book Title:<br><input type="text" name="booktitle" placeholder="e.g. Harry Potter by J. K. Rowling" style="width: 300px;">&nbsp;<span class="redd">* <?php echo $fullnameErr;?></span><br><br>
                                 </div>
                             </div>
                     </div>
@@ -295,12 +295,12 @@ if (isset($_POST["submit"])) {
                     <div class="row">
                             <div class="col-sm-6" style="display: flex; align-items: center; justify-content: center;">
                                 <div>
-                                    9. ISBN (13 digits):<br><input type="text" name="isbn" placeholder="978-x-xx-xxxxxx-x" style="width: 300px;">&nbsp;<span class="redd">*</span><br><br>
+                                    9. ISBN (13 digits):<br><input type="text" name="isbn" placeholder="978-x-xx-xxxxxx-x" style="width: 300px;">&nbsp;<span class="redd">* <?php echo $fullnameErr;?></span><br><br>
                                 </div>
                             </div>
                             <div class="col-sm-6" style="display: flex; align-items: center; justify-content: center;">
                                 <div>
-                                    10. Quantity:<br><input type="number" name="quantity" placeholder="Enter expected quantity" style="width: 300px;">&nbsp;<span class="redd">*</span><br><br>
+                                    10. Quantity:<br><input type="number" name="quantity" placeholder="Enter expected quantity" style="width: 300px;">&nbsp;<span class="redd">* <?php echo $fullnameErr;?></span><br><br>
                                 </div>
                             </div>
                     </div>
@@ -315,7 +315,7 @@ if (isset($_POST["submit"])) {
                                 <div style="margin-left: -26px;">
                                     11. Want:<br><input type="checkbox"" name="want"> Printed Book&nbsp;&nbsp;&nbsp;&nbsp;
                                     <input type="checkbox"" name="want"> eBook&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <input type="checkbox"" name="want"> Audiobook &nbsp;<span class="redd">*</span><br><br>
+                                    <input type="checkbox"" name="want"> Audiobook &nbsp;<span class="redd">* <?php echo $fullnameErr;?></span><br><br>
                                 </div>
                             </div>
                             <div class="col-sm-6" style="display: flex; align-items: center; justify-content: center;">
@@ -341,30 +341,12 @@ if (isset($_POST["submit"])) {
                     <div class="row">
                             <div class="col-sm-6" style="display: flex; align-items: center; justify-content: center;">
                                 <div>
-                                    13. Shipping Address:<br><input type="text" name="shippingaddress" placeholder="Street address physical address only" style="width: 300px;">&nbsp;<span class="redd">*</span><br><br>
+                                    13. Shipping Address:<br><input type="text" name="shippingaddress" placeholder="Street address physical address only" style="width: 300px;">&nbsp;<span class="redd">* <?php echo $fullnameErr;?></span><br><br>
                                 </div>
                             </div>
                             <div class="col-sm-6" style="display: flex; align-items: center; justify-content: center;">
                                 <div>
-                                    14. City:<br><input type="text" name="city" placeholder="e.g. Dhaka" style="width: 300px;">&nbsp;<span class="redd">*</span><br><br>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-                <br>
-
-
-
-                <div class="container">
-                    <div class="row">
-                            <div class="col-sm-6" style="display: flex; align-items: center; justify-content: center;">
-                                <div>
-                                    15. State/Province:<br><input type="text" name="state" placeholder="e.g. Savar" style="width: 300px;">&nbsp;<span class="redd">*</span><br><br>
-                                </div>
-                            </div>
-                            <div class="col-sm-6" style="display: flex; align-items: center; justify-content: center;">
-                                <div>
-                                    16. Postal/Zip code:<br><input type="number" name="postal" placeholder="e.g. 1212" style="width: 300px;">&nbsp;<span class="redd">*</span><br><br>
+                                    14. City:<br><input type="text" name="city" placeholder="e.g. Dhaka" style="width: 300px;">&nbsp;<span class="redd">* <?php echo $fullnameErr;?></span><br><br>
                                 </div>
                             </div>
                     </div>
@@ -377,7 +359,25 @@ if (isset($_POST["submit"])) {
                     <div class="row">
                             <div class="col-sm-6" style="display: flex; align-items: center; justify-content: center;">
                                 <div>
-                                    17. Country:<br><input type="text" name="country" placeholder="Enter your Country, e.g. Bangladesh" style="width: 300px;">&nbsp;<span class="redd">*</span><br><br>
+                                    15. State/Province:<br><input type="text" name="state" placeholder="e.g. Savar" style="width: 300px;">&nbsp;<span class="redd">* <?php echo $fullnameErr;?></span><br><br>
+                                </div>
+                            </div>
+                            <div class="col-sm-6" style="display: flex; align-items: center; justify-content: center;">
+                                <div>
+                                    16. Postal/Zip code:<br><input type="number" name="postal" placeholder="e.g. 1212" style="width: 300px;">&nbsp;<span class="redd">* <?php echo $fullnameErr;?></span><br><br>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <br>
+
+
+
+                <div class="container">
+                    <div class="row">
+                            <div class="col-sm-6" style="display: flex; align-items: center; justify-content: center;">
+                                <div>
+                                    17. Country:<br><input type="text" name="country" placeholder="Enter your Country, e.g. Bangladesh" style="width: 300px;">&nbsp;<span class="redd">* <?php echo $fullnameErr;?></span><br><br>
                                 </div>
                             </div>
                             <div class="col-sm-6" style="display: flex; align-items: center; justify-content: center;">
