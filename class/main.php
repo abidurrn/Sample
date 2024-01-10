@@ -164,8 +164,8 @@ if (isset($_POST["submit"])) {
 
 
     if (empty($fullnameErr) && empty($emailErr) && empty($dateofbirthErr) && empty($phonenumberErr) && empty($collegenameErr) && empty($genderErr) && empty($booktitleErr) && empty($isbnErr) && empty($quantityErr) && empty($wantErr) && empty($shippingaddressErr) && empty($cityErr) && empty($stateErr) && empty($postalErr) && empty($countryErr)){
-        $phpmyadmin = "INSERT INTO order_details ('fullname', 'email', 'dateofbirth', 'phonenumber', 'collegename', 'gender', 'grade', 'booktitle', 'isbn', 'quantity', 'want', 'interest', 'shippingaddress', 'city', 'state', 'postal', 'country', 'message') values ('$fullname', '$email', '$dateofbirth', '$phonenumber', '$collegename', '$gender', '$grade', '$booktitle', '$isbn', '$quantity', '$want', '$interest', '$shippingaddress', '$city', '$state', '$postal', '$country', '$message')";
-        if ($another->query($phpmyadmin) === TRUE) {
+        $sql = "INSERT INTO order_details (fullname, email, dateofbirth, phonenumber, collegename, gender, grade, booktitle, isbn, quantity, want, interest, shippingaddress, city, state, postal, country, message) values ('$fullname', '$email', '$dateofbirth', '$phonenumber', '$collegename', '$gender', '$grade', '$booktitle', '$isbn', '$quantity', '$want', '$interest', '$shippingaddress', '$city', '$state', '$postal', '$country', '$message')";
+        if ($conne->query($sql) === TRUE) {
             echo "Submitted successfully";
         } else {
             echo "Submit failed";
@@ -241,7 +241,7 @@ if (isset($_POST["submit"])) {
         </div>
 
 
-        <form method="post" action="#">
+        <form method="post" action="">
             <div style="background-color: #d9f0ff;">
                 <div class="container">
                     <div class="row">

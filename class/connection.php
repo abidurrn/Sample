@@ -1,14 +1,14 @@
 <?php
 
 $servername = "localhost";
-$username = "abid";
-$password = "12345678";
+$username = "root";
+$password = "";
 $databasename = "books_details";
 
 
-$another = new mysqli($servername, $username, $password, $databasename);
+$conne = new mysqli($servername, $username, $password, $databasename);
 
-if ($another->connect_error) {
+if ($conne->connect_error) {
     echo "connection error";
 } else {
     echo "connection established";
