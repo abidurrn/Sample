@@ -1,0 +1,29 @@
+#recentNews{
+    background-color: #008000;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+#myfooter{
+    background-color: #40408c;
+    padding: 50px;
+    color: white;
+}
+
+#copyFooter{
+    background-color: #1a1a1a;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+
+#contactDiv{
+    background-image: url(images/contact_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -20px;
+    padding-top: 20px;
+}
+
